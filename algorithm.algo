@@ -3,5 +3,11 @@ VAR
     str:STRING
     i:INTEGER
 BEGIN
+FOR i FROM min TO max STEP step  DO
+    set_instructions
+END_FOR
     
+    WHILE (condition) DO
+        set_instructions
+    END_WHILE
 END
