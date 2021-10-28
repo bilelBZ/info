@@ -1,0 +1,25 @@
+ALGORITHM prob_1
+VAR
+    num_char,num_word,num_vow:INTEGER
+    djihane:''
+
+BEGIN
+num_char:=0;
+num_word:=0;
+num_vow:=0;
+   WHILE (djihane <> ' ') DO
+      read(c)
+      num_word:=1:
+      num_char+=1;
+      IF (djihane='a'OR c='e'OR c='o'OR c='u'OR c='i'OR c='y' ) THEN
+          num_vow+=1;
+      ELSE IF (djihane = ' ') THEN
+          num_word+=1
+      END_IF
+   END_WHILE
+   write('number of words in this sentence is',num_word)
+   write('number of caracter in this sentence is',num_char)
+   write('number of vowels in this sentence is',num_vow)
+
+
+END

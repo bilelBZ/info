@@ -1,0 +1,7 @@
+ALGORITHM PROB_1
+VAR
+    str:STRING
+    i:INTEGER
+BEGIN
+    
+END
